@@ -12,8 +12,8 @@
         <img src="images/portfolio/2.jpg" alt="img01"U>
         <figcaption>
             <h2>Modifica Utenti</h2>
-            <p><br>                        
-                <#if (admin == 1)>
+            <p><br>
+                <#if (admin == 6)>
                 <a href="modifica">Modifica</a></p>
             </#if>
         </figcaption>
@@ -24,7 +24,7 @@
         <figcaption>
             <h2>Upload</h2>
             <p><br>
-                <#if (admin == 1)>
+                <#if (admin == 3)>
                 <a href="immagine">Caricamento</a></p>
             </#if>
         </figcaption>
@@ -45,7 +45,7 @@
         <figcaption>
             <h2>Inserimento Libro</h2>
             <p><br>
-                <#if (admin == 1)>
+                <#if (admin == 2)>
 
                 <a href="opera">Controlla</a></p>
             </#if>
@@ -56,7 +56,7 @@
         <figcaption>
             <h2>Edita Testo</h2>
             <p><br>
-                <#if (admin == 1)>
+                <#if (admin == 2)>
 
                 <a href="crea">Esplora</a></p>
             </#if>
